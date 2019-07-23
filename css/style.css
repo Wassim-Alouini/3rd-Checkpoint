@@ -1,0 +1,99 @@
+*{
+  font-family : verdana;
+  color:white;
+  font-weight: bold;
+  font-size:1.1em;
+}
+#cont{
+  position:absolute;
+  right:35%;
+  display:grid;
+  grid-template-columns:1fr 1fr 1fr 1fr;
+  grid-template-rows:1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-areas:"heading heading heading heading "
+                      "scr scr scr scr "
+                      "seven eight nine su"
+                      "four five six ad"
+                      "one two three mu"
+                      "zer res eq di";
+  width:30%;
+  line-height: 2;
+  border:2px solid black;
+  text-align:center;
+  background-color:rgb(196, 196, 196);
+  grid-gap:1px;
+  
+}
+#cont input{
+  background-color:rgb(59, 55, 55);
+  border:none;
+}
+#screen{
+  text-align:right;
+  font-family:'Times New Roman', Times, serif;
+  font-weight:bold;
+  font-size:2.5em;
+  color:rgb(75, 245, 41);
+}
+#cont input:hover{
+  background-color:orange;
+}
+#cont input:act{
+  background-color:rgb(134, 94, 19);
+}
+#one {
+  
+  grid-area:one;
+
+}
+#two {
+  grid-area:two;
+}
+#three {
+  grid-area:three;
+}
+#four {
+  grid-area:four;
+}
+#five {
+  grid-area:five;
+}
+#six {
+  grid-area:six;
+}
+#seven{
+  grid-area:seven;
+}
+#eight {
+  grid-area:eight;
+}
+#nine {
+  grid-area:nine;
+}
+#substract {
+  grid-area:su;
+}
+#add {
+  grid-area:ad;
+}
+#divide {
+  grid-area:di;
+}
+#multiply {
+  grid-area:mu;
+}
+#equals {
+  grid-area:eq;
+}
+#zero {
+  grid-area:zer;
+}
+#res {
+  grid-area:res;
+}
+#heading{
+  grid-area: heading;
+}
+#screen{
+  grid-area: scr;
+}
